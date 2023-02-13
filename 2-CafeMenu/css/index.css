@@ -1,8 +1,12 @@
+/* BODY */
+
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 
+/* Type-selector */
 h1,
 h2,
 p {
@@ -17,12 +21,27 @@ h2 {
 
 h1 {
     font-size: 40px;
+    margin-top: 0px;
+    margin: 15px;
 }
 
 h2 {
     font-size: 30px;
 }
 
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    margin-top: -25px;
+}
+
+/* Element class-selector */
 .menu {
     /* 80% the width of its parent element (body) */
     width: 80%;
@@ -48,8 +67,42 @@ h2 {
 .item p {
     /* Display as inline, but width and height can change */
     display: inline-block;
+    margin: 5px 0px;
+    font-size: 18px;
 }
 
 .established {
     font-style: italic;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+/* Pseudo-selector */
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+/* active -> When the link is actually being clicked */
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
 }

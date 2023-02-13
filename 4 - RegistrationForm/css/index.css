@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    /* Viewport height, 100% of the height of the viewport */
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    /* rem: Relative to the font size of the html element */
+    margin: 0.5rem 0;
+}
+
+h1,
+p {
+    /* em: Relative to the font size of the parent element */
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    /* Viewport width, 60% of the width of the viewport */
+    width: 60vw;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+/* Pseudo-class selector */
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+a {
+    color: #dfdfe2;
+}
+
+a:visited {
+    color: #dfdfe2;
+}
+
+.inline {
+    /* unset: Remove the earlier rules */
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+/* Attribute selector (selects input elements with a name attribute value of "submit-input") */
+input[name="submit-input"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    min-height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: #ffffff;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
