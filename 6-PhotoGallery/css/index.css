@@ -1,0 +1,59 @@
+* {
+    /* Tells the browser to include any border and padding in
+       the element's total width and height */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+
+.gallery {
+    /* Flexbox is a one-dimensional CSS layout that can 
+    control the way items are spaced out and aligned within a container */
+    display: flex;
+    /* Display direction */
+    flex-direction: row;
+    /* Make the flex items wrap to the next row when they run out of space. */
+    flex-wrap: wrap;
+    /* Determines how the items inside a flex container are positioned
+       along the main axis, affecting their position and the space around them */
+    justify-content: center;
+    /* Positions the flex content along the 'x' axis */
+    align-items: center;
+    /* Space between rows and colums for flex, grid, and multi-column layout
+       (other: row-gap, column-gap) */
+    gap: 16px;
+
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    border-radius: 10px;
+
+    /* Tell the image to fill the img container while maintaining aspect ratio */
+    object-fit: cover;
+}
+
+/* Pseudo-element creates an element that is the last child of the selected element */
+.gallery::after {
+    /* Adds an empty string, for create an empty space after the last cat photo */
+    content: "";
+    width: 350px;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
