@@ -1,0 +1,5 @@
+*   HTML
+- FontAwesme icons using 'i' element
+
+*   CSS
+- z-index
