@@ -1,0 +1,7 @@
+*   HTML
+- Multiple classes as value
+
+*   CSS
+- Linear gradient
+- Box shadow
+- Opacity/ Alpha

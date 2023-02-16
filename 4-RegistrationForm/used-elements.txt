@@ -1,0 +1,8 @@
+*   HTML
+- input pattern
+
+*   CSS
+- viewport height/ width
+- rem/ em size
+- pseudo-selector, pseudo-class selector, attribute selector...
+- display: block

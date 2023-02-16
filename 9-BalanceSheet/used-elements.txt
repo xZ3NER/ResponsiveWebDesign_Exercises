@@ -1,0 +1,10 @@
+*   HTML
+- aria-hidden="true" attribute (hide text to screen readers)
+
+*   CSS
+- position: relative;
+- position: absolute;
+- position: sticky;
+- pseudo-elements, pseudo-selectors...
+- clip & clip-path
+- !important attribute values

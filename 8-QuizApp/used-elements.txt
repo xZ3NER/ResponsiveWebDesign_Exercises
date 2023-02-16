@@ -1,0 +1,13 @@
+*   HTML
+- accesskey attribute (shortcuts)
+- role="region" attribute
+- aria-labelledby="student-info" attribute (for screen readers)
+
+*   CSS
+- user web preferences
+- scroll-behavior: smooth;
+- position: fixed and top/ left/ right/ bottom attributes
+- aspect-ratio: ...;
+- max()/min()
+- list-style
+- css for screen readers (hide content to users)

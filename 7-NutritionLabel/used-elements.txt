@@ -1,0 +1,2 @@
+*   CSS
+- :not(.class-name) pseudo-selector 

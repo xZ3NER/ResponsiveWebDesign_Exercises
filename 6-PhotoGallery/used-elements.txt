@@ -1,0 +1,11 @@
+*   CSS 
+- box-sizing: border-box
+- object-fit: cover
+- content
+- pseudo-elements
+- display: flex
+- flex-direction
+- flex-wrap
+- justify-content
+- align-items
+- gap/ row-gap/ column-gap
