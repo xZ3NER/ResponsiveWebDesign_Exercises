@@ -1,0 +1,4 @@
+*   CSS for responsive design
+- @media (max-width: ...) and ...
+- ::before & ::after
+- box-sizing: inherit
